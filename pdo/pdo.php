@@ -27,7 +27,7 @@ try{
 }catch(PDOException $e){
     echo ($e->getMessage());
 } */
-
+//private
 $data = $conn->query("SELECT NAMA FROM TEST")->fetchAll();
 // and somewhere later:
 foreach ($data as $row) {
