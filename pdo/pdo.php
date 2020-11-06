@@ -28,7 +28,7 @@ try{
 }catch(PDOException $e){
     echo ($e->getMessage());
 } */
-
+//tambah
 $data = $conn->query("SELECT NAMA FROM TEST")->fetchAll();
 // and somewhere later:
 foreach ($data as $row) {
