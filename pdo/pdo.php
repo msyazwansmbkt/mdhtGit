@@ -4,6 +4,7 @@ $db = 'oci:dbname=localhost:1522/LOCAL01'; //e.g. '//192.168.1.1/orcl'
 $user = 'acct';
 $pass = 'acct';
 //adjust skit
+//adjust lain ni
 $conn = new PDO($db,$user,$pass);
 if ($conn) {
 	echo 'berjaya.. <br /><br />';
@@ -27,6 +28,7 @@ try{
 }catch(PDOException $e){
     echo ($e->getMessage());
 } */
+//tambah
 //private
 $data = $conn->query("SELECT NAMA FROM TEST")->fetchAll();
 // and somewhere later:
