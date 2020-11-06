@@ -29,6 +29,7 @@ try{
     echo ($e->getMessage());
 } */
 //tambah
+//private
 $data = $conn->query("SELECT NAMA FROM TEST")->fetchAll();
 // and somewhere later:
 foreach ($data as $row) {
